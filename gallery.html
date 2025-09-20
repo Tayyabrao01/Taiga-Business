@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery - Taiga Business</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .gallery-img {
+      overflow: hidden;
+      border-radius: 15px;
+      transition: transform 0.4s ease;
+    }
+
+    .gallery-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+
+    .gallery-img:hover img {
+      transform: scale(1.08);
+    }
+
+    .section-title {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 2rem;
+      color: #ffc107;
+    }
+
+    body {
+      background-color: #000;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Taiga Business</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="faq.html">FAQs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container py-5">
+    <!-- Property Gallery -->
+    <section class="mb-5">
+      <h2 class="section-title text-center">🏠 Property Gallery</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="gallery-img"><img src="h1.avif" alt="Luxury House" class="img-fluid"></div>
+        </div>
+        <div class="col-md-4">
+          <div class="gallery-img"><img src="h2.webp" alt="Modern Villa" class="img-fluid"></div>
+        </div>
+        <div class="col-md-4">
+          <div class="gallery-img"><img src="h3.avif" alt="Elegant Apartment" class="img-fluid"></div>
+        </div>
+        <div class="col-md-6">
+          <div class="gallery-img"><img src="h4.avif" alt="High-Rise View" class="img-fluid"></div>
+        </div>
+        <div class="col-md-6">
+          <div class="gallery-img"><img src="h5.avif" alt="Interior Living Room" class="img-fluid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Automotive Gallery -->
+    <section>
+      <h2 class="section-title text-center">🚘 Automotive Gallery</h2>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="gallery-img"><img src="c6.avif" alt="Sports Car" class="img-fluid"></div>
+        </div>
+        <div class="col-md-3">
+          <div class="gallery-img"><img src="c3.avif" alt="SUV" class="img-fluid"></div>
+        </div>
+        <div class="col-md-3">
+          <div class="gallery-img"><img src="c4.avif" alt="Luxury Sedan" class="img-fluid"></div>
+        </div>
+        <div class="col-md-3">
+          <div class="gallery-img"><img src="c1.avif" alt="Fleet Vehicles" class="img-fluid"></div>
+        </div>
+        <div class="col-md-6">
+          <div class="gallery-img"><img src="c5.avif" alt="Interior Dashboard" class="img-fluid"></div>
+        </div>
+        <div class="col-md-6">
+          <div class="gallery-img"><img src="c2.avif" alt="Chauffeur Service" class="img-fluid"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="text-center py-3 bg-dark text-light">
+  <p>&copy; 2025 Taiga Business. All rights reserved. |
+    <a href="privacy.html" class="text-decoration-none text-warning">Privacy</a> |
+    <a href="terms.html" class="text-decoration-none text-warning">Terms</a>
+  </p>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</bodyh
